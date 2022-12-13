@@ -1,0 +1,106 @@
+.firstdiv{
+    width: 300px;
+    height: 560px;
+    position: absolute;
+    left:750px;
+    top: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+}
+    .right {
+      width: 100%;
+}
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+}
+}
+/**.maindiv {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg');
+}**/
+.firstdiv b{
+    position: absolute;
+    right: 350px;
+    bottom: 610px;
+    right: 390px;
+}
+.firstdiv img{
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.seconddiv{
+    width: 290px;
+    height: 200px;
+    text-align: center;
+    margin-top: 360px;
+    color: silver;
+}
+.seconddiv b{
+    position: absolute;
+    left: 120px;
+    top: 265px;
+    color: orange;
+    width: 90px;
+}
+.seconddiv h1{
+    position: absolute;
+    top: 280px;
+    color: black;
+    width: 300px;
+    height: 100px;
+}
+.barbarian{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #EC9B3B;
+}
+.barbarian-name {
+    font-size: 26px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.barbarian-desc {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.bottom-barbarian {
+    color: white;
+    font-weight: 700;
+    background: orange;
+    height: 112px;
+    width: 300px;
+    display: flexbox;
+    overflow: hidden;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+.bottom-1 {
+    width: 33%;
+    float: left;
+    border-left: none;
+}
+.bottom-2 {
+    width: 33%;
+    float: left;
+   border-left: 1px solid #BD7C2F;
+   height: 100%;
+}
+.bottom-3 {
+    width: 33%;
+    float: left;
+    padding: 5px 5px;
+    border-left: 1px solid #BD7C2F;
+    height: 100%;
+}
