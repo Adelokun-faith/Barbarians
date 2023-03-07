@@ -1,106 +1,123 @@
-.firstdiv{
-    width: 300px;
-    height: 560px;
+.firstdiv {
     position: absolute;
-    left:750px;
+    width: 290px;
+    height: 500px;
+    left: 480px;
     top: 50px;
     background-color: #fff;
     border-radius: 30px;
 }
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    .main {
-      width: 80%;
-      padding: 0;
-}
-    .right {
-      width: 100%;
-}
-}
-@media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
-}
-}
-/**.maindiv {
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg');
+
+/**@media screen and (min-width: 780px) {
+    div.mobile-collapse {
+        margin: auto;
+        width: 90%;
+    }
 }**/
-.firstdiv b{
-    position: absolute;
-    right: 350px;
-    bottom: 610px;
-    right: 390px;
+@media only screen and (max-width: 30px) {
+
+    /* For mobile phones: */
+    .firstdiv,
+    .maindiv {
+        width: 100%;
+    }
 }
-.firstdiv img{
+
+@media screen and (max-width: 30px) {
+
+    .firstdiv,
+    .maindiv {
+        width: 100%;
+    }
+}
+
+/**.maindiv img {
+    max-width: 100%;
+    height: auto;
+}**/
+
+.alternative {
+    background-color: #BD7C2F;
     position: absolute;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    height: 230px;
 }
-.seconddiv{
-    width: 290px;
-    height: 200px;
-    text-align: center;
-    margin-top: 360px;
-    color: silver;
-}
-.seconddiv b{
+
+.alternative img {
     position: absolute;
-    left: 120px;
-    top: 265px;
-    color: orange;
-    width: 90px;
+    width: 200px;
+    height: 300px;
 }
-.seconddiv h1{
+
+.firstdiv img {
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+    height: 250px;
+}
+
+.seconddiv {
+    width: 290px;
+    margin-top: 340px;
+    color: silver;
+    text-align: center;
+    background-color: #fff;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+.seconddiv b {
+    position: absolute;
+    top: 245px;
+    color: orange;
+}
+
+.seconddiv h1 {
     position: absolute;
     top: 280px;
     color: black;
     width: 300px;
     height: 100px;
 }
-.barbarian{
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 3px;
-    color: #EC9B3B;
-}
+
 .barbarian-name {
     font-size: 26px;
     color: black;
     font-weight: 900;
     margin-bottom: 5px;
 }
-.barbarian-desc {
-    padding: 10px;
-    margin-bottom: 10px;
-}
+
 .bottom-barbarian {
     color: white;
     font-weight: 700;
     background: orange;
     height: 112px;
-    width: 300px;
+    width: 290px;
     display: flexbox;
     overflow: hidden;
     border-bottom-left-radius: 19px;
     border-bottom-right-radius: 19px;
 }
+
 .bottom-1 {
     width: 33%;
     float: left;
     border-left: none;
+    height: 100%;
 }
+
 .bottom-2 {
     width: 33%;
     float: left;
-   border-left: 1px solid #BD7C2F;
-   height: 100%;
+    border-left: 1px solid #BD7C2F;
+    height: 100%;
 }
+
 .bottom-3 {
     width: 33%;
     float: left;
-    padding: 5px 5px;
     border-left: 1px solid #BD7C2F;
     height: 100%;
 }
